@@ -3,6 +3,7 @@
 .col-6{width: 50%;float: left;padding: 0 15px;}
 .col-9{width: 75%;float: left;padding: 0 15px;}
 .col-3{width: 25%;float: left;padding: 0 15px;}
+.col-4{width: 33.33%;float: left;padding: 0 15px;}
 .pt-70{padding-top: 70px;}
 .pb-70{padding-bottom: 70px;}
 body{
@@ -11,6 +12,10 @@ body{
 .container{
     width: 1170px;
     margin: auto;
+}
+.row {
+	margin-left: -15px;
+	margin-right: -15px;
 }
 .fix{
     overflow: hidden;
@@ -79,9 +84,10 @@ a{
 	top: 110%;
 	left: 0;
 	border-top: 5px solid blue;
-    visibility: hidden;
-    opacity: 0;
-    transition: .3s;
+	visibility: hidden;
+	opacity: 0;
+	transition: .3s;
+	z-index: 99;
 }
 .main-menu ul li:hover ul.submenu{opacity: 1;visibility: visible;top: 100%;}
 
@@ -110,7 +116,9 @@ a{
     opacity: 1;
     visibility: visible;
 }
-
+.main-menu ul li a i{
+	margin-left: 5px;
+}
 /*  header-area start   */
 
 /*  slider-area start   */
@@ -148,7 +156,10 @@ a{
 	padding: 20px 40px;
 	display: inline-block;
 }
-
+.slider-area a:hover{
+	background: #b4caec;
+	color: red;
+}
 /* slider-icon start*/
 
 .slider-active .owl-nav span{
@@ -192,13 +203,97 @@ a{
 
 
 .cta-area{
-	background-color: rgb(21, 72, 223);
-	padding: 35px 35px;
+	background: #4272d7;
+	padding: 30px;
+}
+.cta-text{}
+.cta-text h3 {
+	color: white;
+	font-size: 18px;
+}
+.cta-text h3 span {
+	font-size: 30px;
+	font-weight: 800;
+}
+.cta-button {}
+.cta-button a {
+	padding: 12px 30px;
+	border: 2px solid white;
+	color: white;
+	font-weight: 700;
+	display: inline-block;
+	margin-left: 15px;
+}
+.cta-button a:hover{
+	background-color: #cfb2b2;
+	color: red;
 }
 
-
-
 /*  cta-area end   */
+
+
+/*    features-area start   */
+
+.features-area{}
+.single-features {
+	position: relative;
+	overflow: hidden;
+}
+.single-image{}
+.single-image img {
+	width: 100%;
+}
+.features-content {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #4272d7;
+	padding: 30px;
+	height: 100%;
+	transition: .3s;
+	transform: translateY(67%);
+}
+.single-features:hover .features-content{transform: translateY(0);}
+.features-icon {
+	margin-bottom: 30px;
+}
+.features-icon i {
+	color: white;
+	font-size: 30px;
+	display: inline-block;
+}
+.features-icon h3 {
+	color: white;
+	font-size: 20px;
+	display: inline-block;
+	margin-left: 20px;
+}
+.features-content p {
+	color: white;
+	line-height: 25px;
+}
+.features-content a {
+	color: white;
+	margin-top: 20px;
+	display: inline-block;
+}
+.features-content a i {
+	margin-right: 8px;
+}
+
+/*    features-area end   */
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
