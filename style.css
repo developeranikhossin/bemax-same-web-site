@@ -1,6 +1,8 @@
 *{padding: 0;margin: 0;box-sizing: border-box;}
 .col-12{width: 100%;float: left;padding: 0 15px;}
 .col-6{width: 50%;float: left;padding: 0 15px;}
+.col-9{width: 75%;float: left;padding: 0 15px;}
+.col-3{width: 25%;float: left;padding: 0 15px;}
 .pt-70{padding-top: 70px;}
 .pb-70{padding-bottom: 70px;}
 body{
@@ -27,7 +29,6 @@ a{
 .header-area {
 	border-top: 5px solid blue;
 	min-height: 120px;
-	background-color: #dfe7eb;
 }
 .logo {
 	float: left;
@@ -109,6 +110,119 @@ a{
     opacity: 1;
     visibility: visible;
 }
+
+/*  header-area start   */
+
+/*  slider-area start   */
+
+.slider-area {
+	width: 100%;
+	overflow: hidden;
+}
+.slider-active{
+	position: relative;
+}
+.single-slider {
+	text-align: center;
+	width: 100%;
+	padding: 175px 0;
+	background-size: cover;
+}
+.slider-area h4 {
+	font-size: 30px;
+	color: white;
+	text-transform: uppercase;
+}
+.slider-area h2 {
+	color: white;
+	font-size: 72px;
+	font-weight: 800;
+	text-transform: uppercase;
+	margin-bottom: 35px;
+}
+.slider-area a {
+	background: #4272d7;
+	color: #fff;
+	font-weight: 700;
+	font-size: 15px;
+	padding: 20px 40px;
+	display: inline-block;
+}
+
+/* slider-icon start*/
+
+.slider-active .owl-nav span{
+	background: rgb(201, 23, 23);
+	color: white;
+	height: 40px;
+	left: 40px;
+	line-height: 35px;
+	position: absolute;
+	text-align: center;
+	top: 40%;
+	width: 40px;
+	font-size: 35px;
+}
+.slider-active .owl-next span{
+	right: 40px;
+	left: auto;
+}
+.slider-active button.owl-dot {
+	width: 18px;
+	height: 18px;
+	background: #eae3e3;
+	display: inline-block;
+	margin: 0 10px;
+	border-radius: 50px;
+}
+.slider-active .owl-dots {
+	text-align: center;
+	z-index: 999;
+	position: relative;
+	bottom: 40px;
+	margin-top: -48px;
+}
+.slider-active button.owl-dot.active {
+	background: red;
+}
+
+/*  slider-area end   */
+
+/*  cta-area start   */
+
+
+.cta-area{
+	background-color: rgb(21, 72, 223);
+	padding: 35px 35px;
+}
+
+
+
+/*  cta-area end   */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
