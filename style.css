@@ -351,6 +351,55 @@ a{
 
 
 
+/*   project area start   */
+
+.project-area{
+	background-color: #222222;
+}
+.project-wrapper{
+	position: relative;
+}
+.project-thumb{
+	position: relative;
+}
+.project-thumb img {
+	width: 100%;
+}
+.project-thumb::before {
+	background: #4272d7;
+	content: "";
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	transition: .3s;
+	opacity: 0;
+}
+.project-wrapper:hover .project-thumb::before{opacity: 1;}
+.project-content {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	text-align: center;
+	transform: translateY(-50%);
+	opacity: 0;
+	visibility: hidden;
+	transition: .3s;
+}
+.project-wrapper:hover .project-content{opacity: 1;visibility: visible;}
+.project-content h4{}
+.project-content h4 a {
+	color: white;
+	font-weight: 700;
+	margin-bottom: 20px;
+	display: inline-block;
+	font-size: 15px;
+}
+.project-content span {
+	color: white;
+	font-size: 13px;
+	font-weight: 400;
+}
 
 
 
@@ -359,10 +408,7 @@ a{
 
 
 
-
-
-
-
+/*   project area end   */
 
 
 
