@@ -313,6 +313,10 @@ a{
 	margin: auto;
 	content: "";
 }
+.service-title.white-text > h2{
+	color: white;
+}
+.service-title.white-text > h2::before{background-color: rgb(238, 238, 210);}
 .single-service {
 	display: flex;
 	margin-bottom: 50px;
@@ -348,6 +352,7 @@ a{
 
 
 /*     services-area   End    */
+
 
 
 
@@ -412,6 +417,29 @@ a{
 
 
 
+/*   video area start   */
+
+
+.video-area{}
+.video {
+	position: relative;
+}
+.video img{
+	width: 100%;
+}
+.video > a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	bottom: 0;
+	height: 55px;
+	width: 55px;
+	font-size: 50px;
+	color: white;
+}
+.video a i{}
 
 
 
@@ -419,4 +447,21 @@ a{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*   video area end   */
 
