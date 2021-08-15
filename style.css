@@ -398,11 +398,11 @@ a{
 	font-weight: 700;
 	margin-bottom: 20px;
 	display: inline-block;
-	font-size: 15px;
+	font-size: 21px;
 }
 .project-content span {
 	color: white;
-	font-size: 13px;
+	font-size: 19px;
 	font-weight: 400;
 }
 
@@ -419,6 +419,15 @@ a{
 
 /*   video area start   */
 
+
+.service-title.black-text > h2{
+	color: #370d0d;
+	font-weight: 600;
+	font-size: 20px;
+}
+.service-title.black-text > h2::before{
+	background: #370d0d;
+}
 
 .video-area{}
 .video {
@@ -442,26 +451,102 @@ a{
 .video a i{}
 
 
+/*   video area start 2nd part   */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.chose-list {
+	margin-bottom: 30px;
+	padding-left: 10px;
+}
+.chose-list p {
+	color: #370d0d;
+	font-size: 16px;
+	line-height: 21px;
+}
+.chose-title {
+	margin-bottom: 20px;
+}
+.chose-title i {
+	font-size: 18px;
+	color: #555;
+	display: inline-block;
+}
+.chose-title h3 {
+	display: inline-block;
+	padding-left: 15px;
+	color: #555;
+	font-size: 16px;
+}
 
 
 
 /*   video area end   */
+
+
+/*   working area start   */
+
+.working-area{
+  background-repeat: no-repeat;
+  background-position: 986px 0px;
+  background-color: #F0F0F0;
+}
+.service-title {
+	padding-top: 120px;
+}
+.service-title h2{}
+.service-title p {
+	margin: 30px 0;
+	font-size: 22px;
+	color: #555;
+	padding-bottom: 30px;
+}
+.service-title a {
+	padding: 20px 40px;
+	background: #1c7ccf;
+	color: white;
+}
+
+.service-title a:hover{
+	background: rgb(151, 119, 60);
+	color: white;
+}
+
+
+/*   working area end   */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
