@@ -598,6 +598,48 @@ a{
 }
 
 
+/*   blog-area  start part 2nd  */
+
+
+.blog-contant-part-2nd {
+	margin-left: 30px;
+	margin-bottom: 30px;
+}
+.blog-contant-part-2nd p {
+	color: #666666;
+	font-size: 15px;
+	line-height: 25px;
+	position: relative;
+}
+.blog-contant-part-2nd > p::before {
+	position: absolute;
+	content: "";
+	background: #370d0d;
+	height: 1px;
+	width: 502px;
+	top: 85px;
+}
+.textimonal-img {
+	
+}
+.textimonal-img img {
+	border-radius: 50%;
+	float: left;
+	margin-right: 16px;
+}
+.testimonal-contant-meta {
+	color: #555555;
+}
+.testimonal-contant-meta h4 {
+	text-transform: uppercase;
+	margin-bottom: 8px;
+	font-size: 15px;
+}
+.testimonal-contant-meta h5 {
+	font-size: 13px;
+}
+
+
 /*   blog-area  end   */
 
 

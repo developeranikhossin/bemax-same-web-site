@@ -87,7 +87,6 @@ $('.blog-active').owlCarousel({
 })
 
 
-
 /*   brand area   */
 
 
