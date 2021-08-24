@@ -10,6 +10,7 @@
 .black-bg{background: black;}
 body{
     font-family: 'Lato', sans-serif;
+	scroll-behavior: smooth;
 }
 .container{
     width: 1170px;
@@ -783,3 +784,4 @@ footer {
 
 
 /*   copy right footer-area  end   */
+
